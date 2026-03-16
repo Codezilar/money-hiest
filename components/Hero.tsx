@@ -4,11 +4,11 @@ import { SendTokens } from './contract'
 
 const Hero = () => {
   return (
-    <div className='hero'>
+    <div className='hero' id='#selectwallet'>
         <h1>
             Claim Your <span>$JECKS</span> Tokens
         </h1>
-        <p>Connect your wallet and claim your exclusive airdrop tokens from the Phantom ecosystem</p>
+        <p>Connect your wallet and claim your exclusive airdrop tokens from the JECKS ecosystem</p>
         <div className="hero-button">
             <WalletMultiButton />
             <SendTokens />

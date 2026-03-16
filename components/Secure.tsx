@@ -3,15 +3,14 @@ import LetterGlitch from './LetterGlitch'
 
 const Secure = () => {
   return (
-    <>
-        <LetterGlitch
-            glitchSpeed={50}
-            centerVignette={true}
-            outerVignette={false}
-            smooth={true}
-        />
-        
-    </>
+    <div className='flex'>  
+      <LetterGlitch
+          glitchSpeed={50}
+          centerVignette={true}
+          outerVignette={false}
+          smooth={true}
+      />
+    </div>
   )
 }
 

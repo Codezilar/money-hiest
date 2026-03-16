@@ -3,17 +3,14 @@ import TokenUtility from '@/components/TokenUtility';
 import Claims from '@/components/Claims';
 import HeroOne from '@/components/HeroOne';
 
-export default function Home() {
+export default function Airdrop() {
   return (
     <>
-      <HeroOne />
-      <main className='main'>
+      <main className='main mt-[5rem]'>
         <div className="main-container">
           <Hero />
           <TokenUtility />
-          <Claims />
         </div>
-        {/* <Secure /> */}
       </main>
     </>
   );

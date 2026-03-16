@@ -17,7 +17,7 @@ const TokenUtility = () => {
         <div className="tokenutility-container">
             {tokenutility.map((tokeen) => (
                 <div className="tokenutility-content" key={tokeen.id}>
-                    <span>£</span>
+                    <span>{tokeen.icon}</span>
                     <h1>{tokeen.id}</h1>
                     <p>{tokeen.content}</p>
 

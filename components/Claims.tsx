@@ -1,4 +1,5 @@
 import React from 'react'
+import { InfiniteMovingCardsDemo } from './Infinite'
 
 const Claims = () => {
   return (
@@ -7,6 +8,9 @@ const Claims = () => {
             <div className="claims_top">
                 <h1>Recent Claims</h1>
                 <p>Join thousands of users who have already successfully claimed their Phantom airdrop tokens.</p>
+            </div>
+            <div className="claimed_content">
+                <InfiniteMovingCardsDemo />
             </div>
         </div>
     </div>

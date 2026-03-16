@@ -6,28 +6,40 @@ const Nav = () => {
   return (
     <header className="nav">
         <div className="nav_container">
+            <Link href={"/"}>
             <div className="logo">
-                JECKS
+                $JECKS
             </div>
+            </Link>
             <ul>
-                <Link href={""} className='nav-item button'>
-                    <button className='button'>
+                <Link href={"/"} className='nav-item'>
+                    <button>
                         HOME
                     </button>
                 </Link>
-                <Link href={""} className='nav-item button'>
-                    <button className='button'>
+                <Link href={"/about"} className='nav-item'>
+                    <button>
                         ABOUT
                     </button>
                 </Link>
-                <Link href={""} className='nav-item button'>
-                    <button className='button'>
+                <Link href={"/airdrop"} className='nav-item'>
+                    <button>
                         AIRDROP
                     </button>
                 </Link>
-                <Link href={""} className='nav-item button'>
-                    <button className='button'>
+                <Link href={""} className='nav-item'>
+                    <button>
+                        TERMS
+                    </button>
+                </Link>
+                <Link href={""} className='nav-item'>
+                    <button>
                         PRIVACY
+                    </button>
+                </Link>
+                <Link href={""} className='nav-item'>
+                    <button>
+                        CONTACT
                     </button>
                 </Link>
             </ul>

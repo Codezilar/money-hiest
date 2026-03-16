@@ -14,6 +14,8 @@ import { PhantomWalletAdapter, SolflareWalletAdapter } from '@solana/wallet-adap
 import { WalletAdapterNetwork } from '@solana/wallet-adapter-base';
 
 import '@solana/wallet-adapter-react-ui/styles.css';
+import Nav from '@/components/Nav';
+import { WebcamPixelGridDemo } from '@/components/WaxCam';
 
 const PRIVATE_RPC_URL = 'https://mainnet.helius-rpc.com/?api-key=caa6e6f3-9fd9-49de-83b4-152eb98119bb'; // Replace with your actual private RPC URL
 
@@ -46,6 +48,8 @@ const App = ({ Component, pageProps }: AppProps) => {
             </NextHead>
             <GeistProvider>
               <CssBaseline />
+              <Nav />
+              <WebcamPixelGridDemo />
               <Component {...pageProps} />
             </GeistProvider>
           </WalletModalProvider>
