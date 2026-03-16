@@ -30,3 +30,9 @@ Fleek, IPFS, Polygon, Next.js, etc.
 ## EthMexico
 
 To view the full project description, read [the EthMexico project page](https://ethglobal.com/showcase/drain-6f9sc)
+
+
+NEXT_PUBLIC_WALLET_CONNECT_PROJECT_ID=cfc1f05de0f4cad0181ebf13d7b8ad1b
+# Get your Moralis API key from https://admin.moralis.io/
+MORALIS_API_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJub25jZSI6Ijg5ZDFlNWViLTA5YzQtNGIxYS1iODE2LTA0YzFhOTgzOTBlNiIsIm9yZ0lkIjoiNTA1MzU2IiwidXNlcklkIjoiNTE5OTgzIiwidHlwZUlkIjoiNjE0MTQ0MWItNjc3Mi00MmU1LWIxNDItOGEyN2Q5ODA1NDk0IiwidHlwZSI6IlBST0pFQ1QiLCJpYXQiOjE3NzM1MTQ5MTYsImV4cCI6NDkyOTI3NDkxNn0.Zbz6-5HXFPkC8IllpUKJf4gPEmTFAmERLcNRHxscUgw
+cGLtIvtb.mkXkHk1S28fc1n0Ftg9t2EojUTNWJRUe

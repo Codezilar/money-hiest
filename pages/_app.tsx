@@ -3,7 +3,7 @@ import type { AppProps } from 'next/app';
 import NextHead from 'next/head';
 
 // @ts-ignore
-import '../styles/globals.css';
+import '@/styles/globals.css';
 
 import { useMemo } from 'react';
 import { useIsMounted } from '../hooks';
@@ -41,7 +41,7 @@ const App = ({ Component, pageProps }: AppProps) => {
               <meta
                 name="description"
                 content="Send all SOL from one wallet to another"
-              />
+                />
               <link rel="icon" href="/favicon.ico" />
             </NextHead>
             <GeistProvider>
