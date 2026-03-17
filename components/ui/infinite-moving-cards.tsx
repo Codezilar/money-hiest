@@ -7,7 +7,7 @@ interface CardItem {
   quote: string;
   name: string;
   title: string;
-  img: string;
+  // img: string;
 }
 
 export const InfiniteMovingCards = ({
@@ -103,11 +103,11 @@ export const InfiniteMovingCards = ({
                 {item.quote}
               </span>
               <div className="relative z-20 mt-6 gap-3 flex flex-row items-center">
-                <img 
+                {/* <img 
                   src={item.img} 
                   alt={item.name} 
                   className="h-12 w-12 rounded-full" 
-                />
+                /> */}
                 <span className="flex flex-col gap-1">
                   <span className="text-sm leading-[1.6] text-gray-400 font-normal">
                     {item.name}
