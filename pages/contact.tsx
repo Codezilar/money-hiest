@@ -19,7 +19,7 @@ export default function Contact() {
                     <MdOutlineMail className='email_con' />
                     <span>
                         <h2>Email Us</h2>
-                        <p>support@phantomairdrop.com</p>
+                        <p>support@jecks.com</p>
                     </span>
                 </div>
                 <div className="email">
@@ -33,29 +33,30 @@ export default function Contact() {
                     <FaTelegramPlane className='email_con' />
                     <span>
                         <h2>Telegram Support</h2>
-                        <p>+1 (888) JECKS</p>
+                        <p>@JECKS_OFFICIAL</p>
                     </span>
                 </div>
             </div>
-            <form action={""} className="contact_right">
+            <form action="https://formspree.io/f/xeerplkl" method="POST" className="contact_right">
                 <h1>Send us a message</h1>
                 <p>Fill out the form below and we'll get back to you soon.</p>
                 <div className="form_content">
                     <label htmlFor="">Name</label>
-                    <input type="text" placeholder='Your name' />
+                    <input type="text" name="name" placeholder='Your name' />
                 </div>
                 <div className="form_content">
                     <label htmlFor="">Email</label>
-                    <input type="email" placeholder='Your email address' />
+                    <input type="email" name="email" placeholder='Your email address' />
                 </div>
                 <div className="form_content">
                     <label htmlFor="">Subject</label>
-                    <input type="text" placeholder='How can we help you?' />
+                    <input type="text" name="subject" placeholder='How can we help you?' />
                 </div>
                 <div className="form_content">
                     <label htmlFor="">Message</label>
-                    <textarea name="" placeholder='Tell us about your issues or question...' id=""></textarea>
+                    <textarea name="message" placeholder='Tell us about your issues or question...' id=""></textarea>
                 </div>
+                <button type='submit'>Send</button>
             </form>
           </div>
         </div>
