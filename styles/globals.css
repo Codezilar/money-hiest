@@ -588,10 +588,10 @@ main{
 /*  claims */
 .claims{
   display: flex;
-  align-items: center;
   width: 100%;
+  position: relative;
+  margin-top: 3rem;
   height: 100vh;
-  gap: 1rem;
 }
 
 
@@ -599,8 +599,6 @@ main{
 .claims h1{
   font-size: 70px;
   line-height: 3.5rem;
-  width: 100%;
-  max-width: 40rem;
 }
 
 .claims h1 span{
