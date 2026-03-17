@@ -9,40 +9,39 @@ export function InfiniteMovingCardsDemo() {
       <InfiniteMovingCards
         items={testimonials}
         direction="right"
-        speed="slow"
+        speed="fast"
       />
     </div>
   );
 }
-
 const testimonials = [
   {
     quote:
-      "It was the best of times, it was the worst of times, it was the age of wisdom, it was the age of foolishness, it was the epoch of belief, it was the epoch of incredulity, it was the season of Light, it was the season of Darkness, it was the spring of hope, it was the winter of despair.",
-    name: "Charles Dickens",
-    title: "A Tale of Two Cities",
+      "I threw in $500 just for laughs, and three weeks later I was able to pay off my mom's mortgage. I still can't believe this is real life.",
+    name: "Marcus Thompson",
+    title: "Early Investor - Turned $500 into $45K",
   },
   {
     quote:
-      "To be, or not to be, that is the question: Whether 'tis nobler in the mind to suffer The slings and arrows of outrageous fortune, Or to take Arms against a Sea of troubles, And by opposing end them: to die, to sleep.",
-    name: "William Shakespeare",
-    title: "Hamlet",
+      "Honestly thought it was a scam at first, but I kept seeing posts about it. Took a $200 gamble and now I'm sitting on a beach in Thailand. $JECKS changed my life.",
+    name: "Sarah Chen",
+    title: "Bought in at $0.000004",
   },
   {
-    quote: "All that we see or seem is but a dream within a dream.",
-    name: "Edgar Allan Poe",
-    title: "A Dream Within a Dream",
-  },
-  {
-    quote:
-      "It is a truth universally acknowledged, that a single man in possession of a good fortune, must be in want of a wife.",
-    name: "Jane Austen",
-    title: "Pride and Prejudice",
+    quote: "My only regret is not buying more. This community is insane in the best way possible. To the moon! 🚀",
+    name: "BigBallzMike",
+    title: "Holding since Day 1",
   },
   {
     quote:
-      "Call me Ishmael. Some years ago—never mind how long precisely—having little or no money in my purse, and nothing particular to interest me on shore, I thought I would sail about a little and see the watery part of the world.",
-    name: "Herman Melville",
-    title: "Moby-Dick",
+      "I was skeptical about meme coins until a friend convinced me to throw in some play money. That 'play money' just paid for my wedding. Thank you $JECKS fam.",
+    name: "Jessica Rodriguez",
+    title: "Became a believer",
+  },
+  {
+    quote:
+      "Bought during the dip when everyone was panicking. Best decision I ever made. This token has legs and the community is rock solid.",
+    name: "CryptoWhale_88",
+    title: "Accidentally became a whale",
   },
 ];
