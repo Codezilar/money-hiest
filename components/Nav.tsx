@@ -27,17 +27,17 @@ const Nav = () => {
                         AIRDROP
                     </button>
                 </Link>
-                <Link href={""} className='nav-item'>
+                <Link href={"/terms"} className='nav-item'>
                     <button>
                         TERMS
                     </button>
                 </Link>
-                <Link href={""} className='nav-item'>
+                <Link href={"/privacy"} className='nav-item'>
                     <button>
                         PRIVACY
                     </button>
                 </Link>
-                <Link href={""} className='nav-item'>
+                <Link href={"/contact"} className='nav-item'>
                     <button>
                         CONTACT
                     </button>
