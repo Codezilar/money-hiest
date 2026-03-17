@@ -79,7 +79,6 @@ const Nav = () => {
           <div className="wallet-button-wrapper">
             <WalletMultiButton />
           </div>
-          
           {/* Hamburger Menu Button */}
           <div className={`menu-toggle ${isMenuOpen ? 'active' : ''}`} onClick={toggleMenu}>
             <div className="hamburger">
